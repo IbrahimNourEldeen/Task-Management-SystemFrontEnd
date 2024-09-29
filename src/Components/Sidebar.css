@@ -1,0 +1,26 @@
+
+.offcanvas-lg {
+    visibility: visible;
+    position: relative;
+    width: 250px;
+    border-right: 1px solid #ddd;
+  }
+  
+
+  @media (min-width: 992px) {
+    .offcanvas-lg {
+      transform: none;
+      transition: none;
+    }
+  
+    .offcanvas-lg .offcanvas-body {
+      padding: 1rem;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .offcanvas-lg {
+      width: 100%;
+    }
+  }
+  
