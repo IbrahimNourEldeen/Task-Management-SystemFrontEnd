@@ -1,6 +1,6 @@
 import { GiFalconMoon } from "react-icons/gi";
 import Button from 'react-bootstrap/Button';
-import  ButtonsExample from './inputsubscribe';
+
 import { FaFacebook } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { IoLogoLinkedin } from "react-icons/io";
