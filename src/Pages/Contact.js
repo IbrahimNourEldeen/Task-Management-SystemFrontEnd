@@ -6,28 +6,36 @@ import { GrSend } from "react-icons/gr";
 const Contact = () => {
   return (
     <>
-    <div  style={{display:"flex",flexDirection:"column",alignItems:"center",justifyContent:"center",marginBottom:"100px"}}>
-      <h1 style={{fontSize:"30px",fontWeight:"700"}}>Contact Us</h1>
 
-<p style={{fontSize:"12px",fontWeight:"490"}}>We'd love to hear from you! Please fill out the form below and We 'll get in touch.</p>
-<div style={{display:"flex",flexDirection:"column",alignItems:"center",justifyContent:"center",marginBottom:"100px"}}>
-<input placeholder=' Name' style={{fontSize:"10px",minWidth:"50%",width:"290%" ,marginBottom:"15px" }}></input>
-<input placeholder=' Email' style={{fontSize:"10px", minWidth:"50%",width:"290%"  ,marginBottom:"14px" }}></input>
-<input placeholder=' Phone' style={{fontSize:"10px", minWidth:"50%" ,width:"290%" ,marginBottom:"15px"  }} ></input>
-<input placeholder=' Project Budget' style={{fontSize:"10px", minWidth:"50%" ,width:"290%"  ,marginBottom:"14px"  }}></input>
-<input placeholder=' service Recuired' style={{fontSize:"10px", minWidth:"50%" ,width:"290%"  ,marginBottom:"15px" }} ></input>
-<textarea placeholder=' Message' style={{fontSize:"10px", minWidth:"50%" ,width:"290%"  ,height:"50px",marginBottom:"14px" }} ></textarea>
+    <div  className=' container mb-5 mt-5 pb-5 font-weight-bold text-center ' > <h1 >Contact Us</h1>
+
+<p className="text-justify" style={{fontSize:"1rem",fontWeight:"490"}}>We'd love to hear from you! Please fill out the form below and We 'll get in touch.</p>
+<div className='row m-0 '>
+<div className=' col-md-12  p-0 pt-4 m-auto'>
+  <div className='row d-flex justify-content-center'>
+    <div className='col-md-6 '>
+      <div className='mb-3 '>
+<input className=' form-control mb-3'  placeholder=' Name' ></input>
+<input className=' form-control mb-3' placeholder=' Email' ></input>
+<input className=' form-control mb-3' placeholder=' Phone'  ></input>
+<input className=' form-control mb-3' placeholder=' Project Budget'></input>
+<input className=' form-control mb-3' placeholder=' service Recuired'></input>
+<textarea className=' form-control mb-3' rows="3" placeholder=' Message'  ></textarea>
 </div>
-<div style={{}}>
-<Button variant="success" > <GrSend /> Send Message </Button>{' '}
-<Button variant="outline-success"> <PiArrowUDownLeftBold /> Reset</Button>{' '}
 </div>
+</div>
+</div>
+</div>
+<div className=' m-3 me-5'>
+<a className=' m-2' href='#'><Button variant="success" > <GrSend /> Send Message </Button></a>
+
+<a href='#'><Button variant="outline-success"> <PiArrowUDownLeftBold /> Reset</Button></a>
+</div>
+
     </div>
 
-  
+    <Footer />
 
-
-    <Footer/>
     </>
   )
 }

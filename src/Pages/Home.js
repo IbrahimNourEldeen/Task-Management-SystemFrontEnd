@@ -21,21 +21,22 @@ const Home = () => {
     <div>
       < ImgOverlayExample />
       <br></br>
-      <h1 style={{fontSize:'6vw',marginLeft:'35%'}}>Features</h1>
-      <div style={{ display:'flex',justifyContent:"space-evenly" ,flexFlow:"wrap row", marginRight:'10%', marginLeft:'10%'}}>
+      <h1 className='mb-5' style={{fontSize:'6vw',marginLeft:'35%'}}>Features</h1>
+      <div className='m-5' style={{ display:'flex',justifyContent:"space-evenly" ,flexFlow:"wrap row"}}>
       <BasicExample /> 
       </div> 
-    <div style={{display:'flex',justifyContent:"center",alignItems:"center" ,marginBottom:'200px',margin:'50px'}}>
-    <Button  variant="success">Explore features</Button>
+    <div className="  col d-flex justify-content-center m-5"  >
+    <Button className='btn btn-success  ' >Explore features</Button>
     </div>
     </div>
     <div style={{textAlign:"center", alignItems:"center", justifyContent:"center", width:"100%",  backgroundColor:"azure", }}>
-    <h1 style={{fontSize:"" ,minWidth:"200px",color:"green"}}>stay warm in style</h1>
-<p  style={{display:"blok"}}> Streamline your workflow and boost productivity with our intuitive task management tool</p>
+    <h1 style={{fontSize:"" ,color:"green"}}>stay warm in style</h1>
+<p  className ="m-3" style={{display:"blok"}}> Streamline your workflow and boost productivity with our intuitive task management tool</p>
 <p>Streamline your workflow</p>
-<Button style={{marginBottom:'10%',margin:'30px'}} variant="success">Get Started For Free</Button>
+<Button className ="m-5"  variant="success">Get Started For Free</Button>
 </div>
-     <Footer/>
+    
+<Footer />
 </>
   )}
 

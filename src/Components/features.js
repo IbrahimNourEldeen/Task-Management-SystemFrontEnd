@@ -9,9 +9,9 @@ function BasicExample(props) {
 <>
 <div className="row" style={{ display:'flex',justifyContent:"space-evenly" ,flexFlow:"wrap row", marginRight:'10%', marginLeft:'10%'}}>
      
-<div className="col">
+<div className="col-md">
         <div className="card" style={{borderColor:"white"}}>
-        <div style={{width:"30%",marginBottom:"80px",marginLeft:"90px"}}>
+        <div className="m-5" style={{width:"30%"}}>
           <img src={Img2} className="card-img-top" style={{}} alt="..."></img></div>
           <h5 className=" card-title fs-4">Task Scheduler</h5>
           <div className="card-body">
@@ -19,13 +19,13 @@ function BasicExample(props) {
             <p className="card-text fs-5">Effortlessly organize and prioritize your daily tasks with our intuitive scheduler.</p>
           
             
-           <Button variant="none" style={{}}> <IoArrowBackCircle style={{borderRadius:'50% / 50%', marginTop:"3px"  , color:"#90EE90",fontSize:"50" }} /></Button>
+           <Button variant="none" style={{}}> <IoArrowBackCircle style={{borderRadius:'50% / 50%', marginTop:"1rem"  , color:"#90EE90",fontSize:"50" }} /></Button>
   </div>
         </div>
         </div>
         <div className="col">
         <div className="card" style={{borderColor:"white"}}>
-        <div style={{width:"30%",marginBottom:"80px",marginLeft:"90px"}}>
+        <div className="m-5" style={{width:"30%"}}>
           <img src={Img3} className="card-img-top" style={{}} alt="..."></img></div>
           <h5 className=" card-title fs-4">Collaboration Hub</h5>
           <div className="card-body">
@@ -33,14 +33,14 @@ function BasicExample(props) {
             <p className="card-text fs-5">Enhance team collaboration with shared task lists and real-time updates.</p>
           
             
-           <Button variant="none" style={{}}> <IoArrowBackCircle style={{borderRadius:'50% / 50%' , marginTop:"9px" , color:"#90EE90",fontSize:"50" }} /></Button>
+           <Button variant="none" style={{}}> <IoArrowBackCircle style={{borderRadius:'50% / 50%' , marginTop:"1rem" , color:"#90EE90",fontSize:"50" }} /></Button>
   </div>
         </div>
         </div>
 
         <div className="col">
         <div className="card" style={{borderColor:"white", maxWidth:"300px"}}>
-          <div style={{width:"30%",marginBottom:"80px",marginLeft:"90px"}}>
+          <div className="m-5" style={{width:"30%"}}>
           <img src={Img4} className="card-img-top" style={{}} alt="..."></img></div>
           <h5 className=" card-title fs-4">Progress Tracker</h5>
           <div className="card-body">
@@ -48,7 +48,7 @@ function BasicExample(props) {
             <p className="card-text fs-5">Track your progress with detailed analytics and performance insights. </p>
           
             
-           <Button variant="none" style={{}}> <IoArrowBackCircle style={{borderRadius:'50% / 50%', marginTop:"3px"  , color:"#90EE90",fontSize:"50" }} /></Button>
+           <Button variant="none" style={{}}> <IoArrowBackCircle style={{borderRadius:'50% / 50%', marginTop:"1rem"  , color:"#90EE90",fontSize:"50" }} /></Button>
   </div>
         </div>
         </div>
@@ -65,18 +65,3 @@ export default BasicExample;
 
 
 
-
-
-{/* 
-<Card style={{ width: '18rem' ,borderColor:"white"}}>
-<div style={{height:200 ,display:"flex", justifyContent:"center",alignItems:"center"}}>
-<Card.Img variant="top" src={props.img} style={{width:"7vw" ,alignItems:"center" ,opacity:0.5}}/></div>
-<Card.Body>
-<Card.Title>{props.Title}</Card.Title>
-<Card.Text>
- { props.text}
-</Card.Text>
-
-<Button variant="none" style={{}}> <IoArrowBackCircle style={{borderRadius:'50% / 50%' , color:"green",fontSize:"50" }} /></Button>
-</Card.Body>
-</Card>  */}
