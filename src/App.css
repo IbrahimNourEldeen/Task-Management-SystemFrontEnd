@@ -1,0 +1,11 @@
+.main-master {
+
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(0, 0, 0, 0.30) 0%, rgba(176, 176, 176, 0.2) 100.2%),
+        url('./Pages/Images/img1.jpg');
+    height: 92vh;
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+}
